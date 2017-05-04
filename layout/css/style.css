@@ -1,0 +1,121 @@
+body{
+    background: #DDD;
+}
+
+/* start nav */
+
+nav.navbar.navbar-inverse{
+    margin-bottom: 0px;
+}
+
+
+.navbar-inverse{
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #222;
+
+}
+
+.navbar-nav > li.active{
+    border-bottom: 3px solid #255625;
+    border-color: #c9302c;
+    font-weight: bold;
+}
+
+/* end nav */
+
+/* start singup */
+
+.main{
+    background: url(../images/singup.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.main-con{
+    background-color: rgba(169, 143, 214, 0.4);
+    min-height: 600px;
+}
+
+.main-sing{
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #9FA8DA;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 4px #78909C;
+}
+
+/* end singup */
+
+/* start page houm */
+
+.hom{
+    margin-top: 20px;
+}
+
+.hom .it .panel-heading h2{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.hom .it .panel-body{
+    height: 200px;
+}
+
+.hom .it .panel-body .it-img img{
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hom .it .panel-body .it-des{
+    margin-top: 10px;
+}
+
+.hom .it .panel-footer{
+    position: relative;
+    background-color: #b7b5b5;
+}
+
+.hom .it .panel-footer .it-date{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 12px;
+    direction: ltr;
+    padding: 2px;
+}
+
+.hom .it .panel-footer .it-date span{
+    margin-left: 3px;
+}
+
+.hom .it .panel-footer .it-com{
+    margin-top: 6px;
+    background-color: #000;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #DDD;
+    border-radius: 4px;
+}
+
+.hom .it .panel-footer .it-com span.glyphicon{
+    margin-left: 6px;
+    color: #337ab7;
+    margin-right: 3px;
+}
+
+/*.hom .it .panel-footer .it-com span.badge{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}*/
+
+/* end page houm */
+

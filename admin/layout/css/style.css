@@ -1,0 +1,327 @@
+body{
+    background: #DDD;
+}
+
+
+/* start form login */
+
+.form-login{
+    margin: 100px auto;
+    max-width: 300px;
+}
+
+.form-login .input-group{
+    margin-top: 5px;
+}
+
+.form-login .input-group#in{
+    display: inline-block;
+}
+
+.form-login .input-group#in{
+    display: block;
+    margin-top: 5px
+}
+
+/* end form */
+
+/* start mynav */
+
+.mynav{
+    height: 40px;
+    background: #1b6d85;
+    transition: 0.5s;
+}
+
+.mynav .brand{
+    text-decoration: none;
+    color: #DDD;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.btn.btn-danger.dch{
+    margin: 3px 20px;
+    padding: 3px 5px;
+}
+
+/* end mynav */
+
+.sidenav{
+    background-color: #111;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+.sidshow{
+    width: 250px;
+}
+
+.navmargin{
+    margin-right: 250px;
+}
+
+.dachbord{
+    transition: 0.5s;
+}
+
+/* start cat */
+
+.cat{
+    margin: 3px;
+    height: 100px;
+    background: #255625;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cat-1{
+    background-color: #ff9800;
+}
+
+.cat-2{
+    background-color: #009688;
+}
+
+.cat-3{
+    background-color: #2196F3;
+}
+
+.cat-4{
+    background-color: #f44336;
+}
+
+.cat span.glyphicon{
+    font-size: 40px;
+    float: right;
+    top: 10%;
+    right: 15px;
+}
+
+/* end cat */
+
+/* start recent */
+.recent{
+    margin-top: 20px;
+}
+
+.recent table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.recent table th{
+    background-color: #ff9800;
+    text-align: center;
+}
+
+.recent table tr:nth-child(odd){
+    background-color: #ffc266
+}
+
+.recent table td, .recent table th{
+    padding: 5px;
+    border: 1px solid #ffc266;
+}
+
+/* end recent */
+
+/* ========================= item-info ===================== */
+
+.item-info{
+    margin-top: 30px;
+}
+
+/* start page users */
+/* start edit */
+
+.main-sing{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #9FA8DA;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 4px #78909C;
+}
+
+.main-sing #user_group, .main-sing #status{
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tbus table{
+    text-align: center;
+    max-width: 300px;
+}
+
+
+.tbus table tr:nth-child(odd){
+    background-color: #FFF
+}
+
+.tbus table tr > td:not(:last-child){
+    padding-left: 10px;
+}
+
+.tbus .pagination{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* end edit */
+/* end page users */
+
+/* start page items */
+
+.it-add #itCat{
+    display: block;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.it-add #itUs{
+    display: block;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.it-add{
+    position: relative;
+}
+
+.it-add .it-img{
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    max-height: 300px
+}
+
+.it-img .progress{
+   display: none
+}
+
+.it-add .it-img .it-def{
+    max-width: 105px;
+    max-height: 110px;
+}
+
+.it-add .it-img #itFile{
+    display: none;
+}
+
+/* start it-hom */
+
+.it-hom .it{
+    position: relative;
+}
+
+.it-hom .it .panel-heading{
+    position: relative;
+}
+
+.it-hom .it .panel-heading .it-info{
+    width: 80%;
+    white-space: nowrap;
+}
+
+.it-hom .it .panel-heading .it-info p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.it-hom .it .panel-heading .it-info p a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.it-hom .it .panel-heading .it-info p.it-nm{
+    text-align: center;
+    font-size: 20px
+}
+
+.it-hom .it .panel-heading .it-ac{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.it-hom .it .panel-heading .it-ac a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.it-hom .it .panel-heading .it-ac a .glyphicon-pencil{
+    margin-left: 15px;
+}
+
+.it-hom .it .panel-heading .it-ac a .glyphicon-trash{
+    color: #d43f3a;
+}
+
+.it-hom .it .panel-body{
+    position: relative;
+    height: 250px;
+    padding: 5px;
+}
+
+.it-hom .it .panel-body .it-img img{
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.it-hom .it .panel-body .it-des{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 7px;
+}
+
+.it-hom .it .panel-footer{
+    position: relative;
+}
+
+.it-hom .it .panel-footer .it-date{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 12px;
+    direction: ltr;
+    padding: 2px;
+}
+
+.it-hom .it .panel-footer .it-date span{
+    margin-left: 3px;
+}
+
+/* end it-hom */
+
+/* end page items */
+
+
+
+@media screen and (max-width: 450px) {
+  .navmargin{
+    margin-right: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
